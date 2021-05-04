@@ -1,6 +1,8 @@
 # MAMARB-Lagrange-Policies
 Code for paper: Beyond "To Act or Not to Act": Fast Lagrangian Approaches to General Multi-Action Restless Bandits in AAMAS'21
 
+first run `bash make_dirs.sh` to setup directory structure
+
 Example Usage: python3 adherence_simulation.py -N 5 -n 200 -b 0.1 -s 0 -ws 0 -l 25 -d healthcare -S 4
 - N: Number of trials to average over
 - n: Number of processes 
